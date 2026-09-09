@@ -116,6 +116,7 @@ function encodeProduct(product, context) {
     )
 }
 
+
 function encodeUser(user, context) {
     if (user.purchases.length) {
         return tf.stack(
@@ -178,6 +179,7 @@ async function trainModel({ users }) {
     _globalCtx = context
 
     const trainData = createTrainingData(context)
+    // Parei aqui, aula 5 - início
     debugger
 
     postMessage({ type: workerEvents.progressUpdate, progress: { progress: 100 } });
