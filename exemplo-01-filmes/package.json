@@ -1,0 +1,15 @@
+{
+    "name": "filmes-recomendacoes-com-ml",
+    "version": "1.0.0",
+    "description": "Sistema de sugestão de filmes com TensorFlow.js, API Node/Express e PostgreSQL, tudo orquestrado via Docker Compose",
+    "private": true,
+    "keywords": [
+        "filmes",
+        "tensorflow",
+        "recommendation",
+        "postgres",
+        "docker"
+    ],
+    "author": "",
+    "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "filmes-seed",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "main": "seed.js",
+    "dependencies": {
+        "csv-parse": "^5.6.0",
+        "pg": "^8.13.1"
+    }
+}
